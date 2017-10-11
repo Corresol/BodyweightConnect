@@ -1,0 +1,2 @@
+include ':mobile', ':wear', ':fliclib2'
+project(':fliclib2').projectDir = new File('fliclib')

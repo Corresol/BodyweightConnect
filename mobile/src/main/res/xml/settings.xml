@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Application Settings">
+        <SwitchPreference
+            android:title="Voice Output"
+            android:key="voice_output"
+            android:summary="Turn voice output on/off"
+            />
+
+        <SwitchPreference
+            android:title="Metronom"
+            android:summary="Turn metronom on/off"
+            android:key="metronom"
+            />
+
+        <PreferenceScreen
+            android:title="Sports Pages"
+            android:key="settings_pages"
+            />
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:title="Metronom Settings"
+        android:key="settings_metronom" />
+</PreferenceScreen>

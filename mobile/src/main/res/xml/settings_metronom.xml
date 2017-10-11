@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Get Stats"
+        android:key="btn_getFromStatletics"
+        android:summary="Push to load Stats from statletics.com"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="3.9"
+        android:dialogMessage=""
+        android:key="metronom_BURPEE_DEEPFROGS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Burpee Deepfrogs" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="4.1"
+        android:dialogMessage=""
+        android:key="metronom_BURPEE_FROGS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Burpee Frogs" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="7.2"
+        android:dialogMessage=""
+        android:key="metronom_BURPEE_SQUAT_JUMPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Burpee Squat Jumps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="5.6"
+        android:dialogMessage=""
+        android:key="metronom_BURPEES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Burpees" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="1.5"
+        android:dialogMessage=""
+        android:key="metronom_CLIMBERS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Climbers" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_CRUNCHES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Crunches" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="0.7"
+        android:dialogMessage=""
+        android:key="metronom_FROGGERS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Froggers" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HH_LEG_LEVERS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="HH Leg Levers" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HH_LUNGE_WALK_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="HH Lunge Walk" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HH_LUNGES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="HH Lunges" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HH_SQUATS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="HH Squats" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HH_STANDUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="HH Standups" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HIGH_JUMPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="High Jumps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HIGH_KNEES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="High Knees" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_HSPUSHUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="HSPushUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_JACKKNIVES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="JackKnives" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_JUMPING_JACKS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Jumping Jack" />
+
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_JUMPING_PULLUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Jumping Pullups" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_JUMPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Jumps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_KIPPING_HS_PUSHUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Kipping HS PushUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_KNEE_PUSHUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Knee PushUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_LUNGE_WALK_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Lunge Walk" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_LUNGES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Lunges" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_MOUNTAIN_CLIMBERS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Mountain Climbers" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_MUSCLEUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="MuscleUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_OH_PUSHUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="OH PushUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_PIKES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Pikes" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_PISTOLS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Pistols" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_PULLUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="PullUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_PUSHUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="PushUps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_SITUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Situps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_SPLIT_LUNGES_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Split Lunges" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_SPRAWL_FROGS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Sprawl Frogs" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_SPRAWLS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Sprawls" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_SQUATS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Squats" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_STANDUP_JUMPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Standup Jumps" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_STANDUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Standups" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_STRAIGHT_LEG_LEVERS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Straigth Leg Levers" />
+    <com.statletics.bodyweightconnect.util.MySpinnerPreference
+        android:defaultValue="2.7"
+        android:dialogMessage=""
+        android:key="metronom_STRICT_HS_PUSHUPS_time_"
+        android:summary="@string/seekbar_summary"
+        android:title="Strict HS Pushups" />
+</PreferenceScreen>

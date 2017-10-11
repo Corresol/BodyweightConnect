@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'MyAndroidKey'
+            keyPassword 'mashin2k'
+            storeFile file('C:/Users/Tonni/android.jks')
+            storePassword 'mashin2k'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId 'com.statletics.bodyweightconnect'
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 20
+        versionName "1.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':fliclib2')
+    wearApp project(':wear')
+    //compile 'com.google.android.gms:play-services-wearable:9.2.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'org.apache.servicemix.bundles:org.apache.servicemix.bundles.commons-io:1.4_3'
+    compile 'com.google.android.gms:play-services-wearable:10.0.0'
+    compile 'com.google.firebase:firebase-ads:10.0.0'
+    compile 'com.google.android.gms:play-services-maps:10.0.0'
+    compile 'com.google.maps.android:android-maps-utils:0.4.4'
+}
+
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'

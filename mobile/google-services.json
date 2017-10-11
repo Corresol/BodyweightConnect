@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "77163491243",
+    "firebase_url": "https://bwconnect-998eb.firebaseio.com",
+    "project_id": "bwconnect-998eb",
+    "storage_bucket": "bwconnect-998eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77163491243:android:3e7bf15d911a35ec",
+        "android_client_info": {
+          "package_name": "com.statletics.bodyweightconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77163491243-jh0hku8h60dkfl4rg8q61dn1eg24cv6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiAaIIgeeoMsSwt_NPgOJaZBTWT5BiHe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

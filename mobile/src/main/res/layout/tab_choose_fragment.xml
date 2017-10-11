@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/webViewLayout"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/headline"
+        android:id="@+id/headline"
+        android:layout_weight="0.20"
+        android:layout_margin="10dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choosesports"
+                android:id="@+id/textView"
+                android:padding="5dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:padding="5dp"
+                android:id="@+id/sportsGroup">
+
+            </RadioGroup>
+
+            <Button
+                android:text="add Page"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/btnAddPage"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choosedevice"
+                android:id="@+id/textView2"
+                android:padding="5dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".50"
+                android:padding="5dp"
+                android:id="@+id/deviceGroup"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone"
+                    android:id="@+id/device_phone"
+                    android:enabled="true"
+                    android:checked="true"
+                    android:buttonTint="@color/green"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flic"
+                    android:id="@+id/device_flic"
+                    android:checked="false"
+                    android:buttonTint="@color/green"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gamepad"
+                    android:id="@+id/device_gamepad"
+                    android:checked="false"
+                    android:buttonTint="@color/green"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wear"
+                    android:id="@+id/device_wear"
+                    android:checked="false"
+                    android:buttonTint="@color/green" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/voicereg"
+                    android:id="@+id/device_voice"
+                    android:enabled="false"
+                    android:checked="false"
+                    android:buttonTint="@color/green" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:id="@+id/button"
+        android:onClick="callWebView"
+        android:background="@color/green"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/flic"
+            android:id="@+id/imageView"
+
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="@string/orderflic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvOrderFlic"
+            android:layout_weight="1.00"
+            android:autoText="false"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_weight="1" />
+
+</LinearLayout>
